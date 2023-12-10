@@ -1,0 +1,65 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "VLyb--FB15k",
+  "dataset_size": 51346967,
+  "description": "",
+  "download_checksums": {
+    "https://huggingface.co/datasets/VLyb/FB15k/resolve/8007cbafadb06a0bdfaa0ba534b2d7a5b2f1052b/train.csv": {
+      "num_bytes": 37606637,
+      "checksum": null
+    },
+    "https://huggingface.co/datasets/VLyb/FB15k/resolve/8007cbafadb06a0bdfaa0ba534b2d7a5b2f1052b/valid.csv": {
+      "num_bytes": 3895687,
+      "checksum": null
+    },
+    "https://huggingface.co/datasets/VLyb/FB15k/resolve/8007cbafadb06a0bdfaa0ba534b2d7a5b2f1052b/test.csv": {
+      "num_bytes": 4521984,
+      "checksum": null
+    }
+  },
+  "download_size": 46024308,
+  "features": {
+    "head": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "relation": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tail": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 97371275,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 41954896,
+      "num_examples": 483142,
+      "dataset_name": "csv"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 4345668,
+      "num_examples": 50000,
+      "dataset_name": "csv"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 5046403,
+      "num_examples": 58047,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
